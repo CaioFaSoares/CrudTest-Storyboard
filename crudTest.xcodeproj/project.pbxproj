@@ -17,7 +17,7 @@
 		D697C44328EB1753009A0BB2 /* crudTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D697C44228EB1753009A0BB2 /* crudTestTests.swift */; };
 		D697C44D28EB1753009A0BB2 /* crudTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D697C44C28EB1753009A0BB2 /* crudTestUITests.swift */; };
 		D697C44F28EB1753009A0BB2 /* crudTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D697C44E28EB1753009A0BB2 /* crudTestUITestsLaunchTests.swift */; };
-		D697C45C28EB1B27009A0BB2 /* AddStudentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D697C45B28EB1B27009A0BB2 /* AddStudentVC.swift */; };
+		D697C46628EB48F4009A0BB2 /* AddStudentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D697C46528EB48F4009A0BB2 /* AddStudentVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		D697C44828EB1753009A0BB2 /* crudTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = crudTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D697C44C28EB1753009A0BB2 /* crudTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crudTestUITests.swift; sourceTree = "<group>"; };
 		D697C44E28EB1753009A0BB2 /* crudTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crudTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		D697C45B28EB1B27009A0BB2 /* AddStudentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentVC.swift; sourceTree = "<group>"; };
+		D697C46528EB48F4009A0BB2 /* AddStudentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +111,7 @@
 				D697C43628EB1753009A0BB2 /* LaunchScreen.storyboard */,
 				D697C43928EB1753009A0BB2 /* Info.plist */,
 				D697C43128EB1752009A0BB2 /* crudTest.xcdatamodeld */,
-				D697C45B28EB1B27009A0BB2 /* AddStudentVC.swift */,
+				D697C46528EB48F4009A0BB2 /* AddStudentVC.swift */,
 			);
 			path = crudTest;
 			sourceTree = "<group>";
@@ -265,7 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D697C42D28EB1752009A0BB2 /* ViewController.swift in Sources */,
-				D697C45C28EB1B27009A0BB2 /* AddStudentVC.swift in Sources */,
+				D697C46628EB48F4009A0BB2 /* AddStudentVC.swift in Sources */,
 				D697C42928EB1752009A0BB2 /* AppDelegate.swift in Sources */,
 				D697C42B28EB1752009A0BB2 /* SceneDelegate.swift in Sources */,
 				D697C43328EB1752009A0BB2 /* crudTest.xcdatamodeld in Sources */,

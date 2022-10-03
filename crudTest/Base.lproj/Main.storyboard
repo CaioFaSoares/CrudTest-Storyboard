@@ -33,7 +33,7 @@
         <!--Add Student-->
         <scene sceneID="zBm-9p-pPp">
             <objects>
-                <viewController id="Qga-IT-Xk0" sceneMemberID="viewController">
+                <viewController id="Qga-IT-Xk0" customClass="AddStudentVC" customModule="crudTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hN0-uP-JGx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -78,6 +78,9 @@
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="ADD"/>
+                                        <connections>
+                                            <action selector="AddOnClick:" destination="Qga-IT-Xk0" eventType="touchUpInside" id="z9t-ic-wQW"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -90,6 +93,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Add Student" id="tsx-rM-HPk"/>
+                    <connections>
+                        <outlet property="txtName" destination="SZN-ZH-Gri" id="bDq-K0-mHJ"/>
+                        <outlet property="txtSchool" destination="Lg6-m6-2f7" id="zfQ-bW-RDt"/>
+                        <outlet property="txtStd" destination="6NJ-t7-NPV" id="BPI-DX-9Af"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OzC-hk-0vE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
