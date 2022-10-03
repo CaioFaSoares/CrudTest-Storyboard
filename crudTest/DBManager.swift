@@ -57,15 +57,16 @@ class DBManager {
         }
     }
     
-    func fetchStudents() {
+    func fetchStudent() -> [Student] {
         var student = [Student]()
         let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: Student.description())
         do {
-            student = try context.fetch(fetchRequest)
+            student = try context.fetch(fetchRequest) as! [Student]
             
         } catch {
             print("fetching error")
             
         }
+        return student
     }
 }

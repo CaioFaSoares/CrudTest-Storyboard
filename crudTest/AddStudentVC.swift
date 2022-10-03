@@ -9,17 +9,14 @@ import UIKit
 
 class AddStudentVC: UIViewController {
     
-    
-
-    @IBOutlet weak var txtName: UITextField!
-    @IBOutlet weak var txtStd: UITextField!
-    @IBOutlet weak var txtSchool: UITextField!
+    @IBOutlet weak var txtName:      UITextField!
+    @IBOutlet weak var txtStd:       UITextField!
+    @IBOutlet weak var txtSchool:    UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
     }
-    
     
     @IBAction func AddOnClick(_ sender: Any) {
         if let name = txtName.text,
@@ -32,16 +29,17 @@ class AddStudentVC: UIViewController {
             newStudent.school   = school
             
             DBManager.share.saveContext()
+        }
+        
+        /*
+         // MARK: - Navigation
+         
+         // In a storyboard-based application, you will often want to do a little preparation before navigation
+         override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+         // Get the new view controller using segue.destination.
+         // Pass the selected object to the new view controller.
+         }
+         */
+        
     }
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

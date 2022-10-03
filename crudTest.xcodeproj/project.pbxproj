@@ -19,8 +19,8 @@
 		D697C44F28EB1753009A0BB2 /* crudTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D697C44E28EB1753009A0BB2 /* crudTestUITestsLaunchTests.swift */; };
 		D697C46628EB48F4009A0BB2 /* AddStudentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D697C46528EB48F4009A0BB2 /* AddStudentVC.swift */; };
 		D697C46828EB49A9009A0BB2 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D697C46728EB49A9009A0BB2 /* DBManager.swift */; };
-		D6D1B8C128EB907600C2FE27 /* Student+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D1B8BF28EB907600C2FE27 /* Student+CoreDataClass.swift */; };
-		D6D1B8C228EB907600C2FE27 /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D1B8C028EB907600C2FE27 /* Student+CoreDataProperties.swift */; };
+		D6D1B8C528EB957C00C2FE27 /* Student+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D1B8C328EB957C00C2FE27 /* Student+CoreDataClass.swift */; };
+		D6D1B8C628EB957C00C2FE27 /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D1B8C428EB957C00C2FE27 /* Student+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +57,8 @@
 		D697C44E28EB1753009A0BB2 /* crudTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crudTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D697C46528EB48F4009A0BB2 /* AddStudentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentVC.swift; sourceTree = "<group>"; };
 		D697C46728EB49A9009A0BB2 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
-		D6D1B8BF28EB907600C2FE27 /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		D6D1B8C028EB907600C2FE27 /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		D6D1B8C328EB957C00C2FE27 /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		D6D1B8C428EB957C00C2FE27 /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +109,8 @@
 		D697C42728EB1752009A0BB2 /* crudTest */ = {
 			isa = PBXGroup;
 			children = (
-				D6D1B8BF28EB907600C2FE27 /* Student+CoreDataClass.swift */,
-				D6D1B8C028EB907600C2FE27 /* Student+CoreDataProperties.swift */,
+				D6D1B8C328EB957C00C2FE27 /* Student+CoreDataClass.swift */,
+				D6D1B8C428EB957C00C2FE27 /* Student+CoreDataProperties.swift */,
 				D697C42828EB1752009A0BB2 /* AppDelegate.swift */,
 				D697C42A28EB1752009A0BB2 /* SceneDelegate.swift */,
 				D697C42C28EB1752009A0BB2 /* ViewController.swift */,
@@ -275,9 +275,9 @@
 			files = (
 				D697C42D28EB1752009A0BB2 /* ViewController.swift in Sources */,
 				D697C46828EB49A9009A0BB2 /* DBManager.swift in Sources */,
-				D6D1B8C228EB907600C2FE27 /* Student+CoreDataProperties.swift in Sources */,
+				D6D1B8C628EB957C00C2FE27 /* Student+CoreDataProperties.swift in Sources */,
 				D697C46628EB48F4009A0BB2 /* AddStudentVC.swift in Sources */,
-				D6D1B8C128EB907600C2FE27 /* Student+CoreDataClass.swift in Sources */,
+				D6D1B8C528EB957C00C2FE27 /* Student+CoreDataClass.swift in Sources */,
 				D697C42928EB1752009A0BB2 /* AppDelegate.swift in Sources */,
 				D697C42B28EB1752009A0BB2 /* SceneDelegate.swift in Sources */,
 				D697C43328EB1752009A0BB2 /* crudTest.xcdatamodeld in Sources */,

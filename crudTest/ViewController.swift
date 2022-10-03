@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        students = DBManager.share.fetchStudents()
+        students = DBManager.share.fetchStudent()
         studentTableView.reloadData()
     }
 }
@@ -36,4 +36,16 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == UITableViewCell.EditingStyle.delete {
+            do {
+                try DBManager.share.context.delete(students[indexPath.row])
+            } catch { print("Error in deleting") }
+            DBManager.share.saveContext()
+            students.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .automatic)
+        }
+    }
+    
 }
